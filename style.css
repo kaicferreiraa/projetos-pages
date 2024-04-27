@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main{
@@ -13,16 +14,45 @@
 
 .card{
     margin: 10px;
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(205, 205, 205);
     color: #202020;
+    text-align: center;
     width: 300px;
-    height: 400px;
+    height: 570px;
     border-radius:7px;
-    box-shadow:rgba(35, 35, 35, 0.405) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+    box-shadow:rgba(35, 35, 35, 0.398) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
 }
+
+.card>h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>p{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.btn{
+    color: white;
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #353535;
+    border-radius: 10px;
+    font-weight: 600px;
+
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color:#818181;
+}
+    
 
 .card>img{
     width: 100%;
     border-top-left-radius:7px ;
     border-top-right-radius: 7px;
 }
+
