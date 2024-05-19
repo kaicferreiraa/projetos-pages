@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
@@ -9,7 +9,7 @@
 body{
     background-color: rgb(34, 34, 34 );
     color: white;
-    font-family: 'fonte01',Arial, Helvetica, sans-serif  ;
+    font-family: 'Work Sans',Arial, Helvetica, sans-serif  ;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
@@ -64,7 +64,7 @@ main{
 
 h2{
     font-size: 57px;
-    font-family:('fonte01', Arial, Helvetica, sans-serif) ;
+    font-family:('Work Sans', Arial, Helvetica, sans-serif) ;
 }
 
 span{
